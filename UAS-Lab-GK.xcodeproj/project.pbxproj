@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934825C62B25B0F100CA387E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 934825C52B25B0F100CA387E /* main.cpp */; };
+		934825CE2B25B10000CA387E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934825CD2B25B10000CA387E /* IOKit.framework */; };
+		934825D02B25B10400CA387E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934825CF2B25B10400CA387E /* OpenGL.framework */; };
+		934825D22B25B10A00CA387E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934825D12B25B10A00CA387E /* GLUT.framework */; };
+		934825D42B25B10E00CA387E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934825D32B25B10E00CA387E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		934825C02B25B0F100CA387E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		934825C22B25B0F100CA387E /* UAS-Lab-GK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UAS-Lab-GK"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934825C52B25B0F100CA387E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		934825CD2B25B10000CA387E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		934825CF2B25B10400CA387E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		934825D12B25B10A00CA387E /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		934825D32B25B10E00CA387E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		934825D52B25B15100CA387E /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934825BF2B25B0F100CA387E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934825D42B25B10E00CA387E /* Cocoa.framework in Frameworks */,
+				934825D22B25B10A00CA387E /* GLUT.framework in Frameworks */,
+				934825D02B25B10400CA387E /* OpenGL.framework in Frameworks */,
+				934825CE2B25B10000CA387E /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934825B92B25B0F100CA387E = {
+			isa = PBXGroup;
+			children = (
+				934825C42B25B0F100CA387E /* UAS-Lab-GK */,
+				934825C32B25B0F100CA387E /* Products */,
+				934825CC2B25B10000CA387E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		934825C32B25B0F100CA387E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934825C22B25B0F100CA387E /* UAS-Lab-GK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934825C42B25B0F100CA387E /* UAS-Lab-GK */ = {
+			isa = PBXGroup;
+			children = (
+				934825C52B25B0F100CA387E /* main.cpp */,
+				934825D52B25B15100CA387E /* main.h */,
+			);
+			path = "UAS-Lab-GK";
+			sourceTree = "<group>";
+		};
+		934825CC2B25B10000CA387E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934825D32B25B10E00CA387E /* Cocoa.framework */,
+				934825D12B25B10A00CA387E /* GLUT.framework */,
+				934825CF2B25B10400CA387E /* OpenGL.framework */,
+				934825CD2B25B10000CA387E /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934825C12B25B0F100CA387E /* UAS-Lab-GK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934825C92B25B0F100CA387E /* Build configuration list for PBXNativeTarget "UAS-Lab-GK" */;
+			buildPhases = (
+				934825BE2B25B0F100CA387E /* Sources */,
+				934825BF2B25B0F100CA387E /* Frameworks */,
+				934825C02B25B0F100CA387E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UAS-Lab-GK";
+			productName = "UAS-Lab-GK";
+			productReference = 934825C22B25B0F100CA387E /* UAS-Lab-GK */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934825BA2B25B0F100CA387E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					934825C12B25B0F100CA387E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 934825BD2B25B0F100CA387E /* Build configuration list for PBXProject "UAS-Lab-GK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934825B92B25B0F100CA387E;
+			productRefGroup = 934825C32B25B0F100CA387E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934825C12B25B0F100CA387E /* UAS-Lab-GK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934825BE2B25B0F100CA387E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934825C62B25B0F100CA387E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		934825C72B25B0F100CA387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		934825C82B25B0F100CA387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		934825CA2B25B0F100CA387E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/UAS-Lab-GK\"",
+					"\"/opt/homebrew/Cellar/freeglut/3.4.0/include/GL\"",
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/Library\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/UAS-Lab-GK\"",
+					"\"/opt/homebrew/Cellar/freeglut/3.4.0/include/GL\"",
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		934825CB2B25B0F100CA387E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/UAS-Lab-GK\"",
+					"\"/opt/homebrew/Cellar/freeglut/3.4.0/include/GL\"",
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/Library\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/UAS-Lab-GK\"",
+					"\"/opt/homebrew/Cellar/freeglut/3.4.0/include/GL\"",
+					"\"/Users/riyandaazisfebrian/Documents/Computer Graphics Lab/UAS-Lab-GK/Library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934825BD2B25B0F100CA387E /* Build configuration list for PBXProject "UAS-Lab-GK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934825C72B25B0F100CA387E /* Debug */,
+				934825C82B25B0F100CA387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934825C92B25B0F100CA387E /* Build configuration list for PBXNativeTarget "UAS-Lab-GK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934825CA2B25B0F100CA387E /* Debug */,
+				934825CB2B25B0F100CA387E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934825BA2B25B0F100CA387E /* Project object */;
+}
